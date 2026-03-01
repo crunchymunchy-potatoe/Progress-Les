@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florist Shop</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <div class="main-header">
+    <h3 class="header-info">
+      <a href="index.html"> Florist Shop </a>
+    </h3>
+    <nav>
+      <a href="">Home
+        <i class="fa-solid fa-house"></i>
+      </a>
+     
+      <a href="#table-section">Price  
+        <i class="fa-solid fa-tag"></i>
+      </a>
+     
+      <a href="#about">About Us
+        <i class="fa-solid fa-circle-info"></i>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<!-- Bagian yang dipindahkan ke dalam div jumbotron -->
+<div class="jumbotron" id="Home">
+   <h1> Florist Shop</h1>
+   <p> We Sell Bouquet Made With Love </p>
+   <img src="Asset(Dhira)/main.jpg" alt="Big Images">
+</div>
+
+<main>
+  <!-- Section Products -->
+  <section id="products" class="products-section">
+
+    <h2 class="products-title">Our Products</h2>
+    <p class="products-subtitle">Custom Bouquet, Made by Order</p>
+
+    <div class="products-container">  <!-- Flex Container -->
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="Asset(Dhira)/Black boquet.jpg" class="product-image" alt="Full Yellow Bouquet">
+        <h3 class="product-name">Full Black Bouquet=</h3>
+        <p class="product-price">IDR 150.000</p>
+        <p class="product-desc">For Ur Friend</p>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="Asset(Dhira)/Purple bouqet.jpeg" class="product-image" alt="Pink Rose Bouquet">
+        <h3 class="product-name">Purple Bouquet</h3>
+        <p class="product-price">IDR 160.000</p>
+        <p class="product-desc">Perfect for Wedding(ihopeso)</p>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="Assets/bunga4.jpg" class="product-image" alt="Red Flower Bouquet">
+        <h3 class="product-name">Red Flower Bouquet</h3>
+        <p class="product-price">IDR 170.000</p>
+        <p class="product-desc">Anniversary Gift</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="table-section" class="table-section">
+
+  <h2 class="table-title">Available Flowers</h2>
+
+  <table class="flower-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Color</th>
+        <th>Picture</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Tulip</td>
+        <td>IDR 25.000/pcs</td>
+        <td>Purple</td>
+        <td><img src="Asset(Dhira)/purple.jpeg" class="table-img"></td>
+      </tr>
+
+      <tr>
+        <td>Rose</td>
+        <td>IDR 35.000/pcs</td>
+        <td>Red</td>
+        <td><img src="Assets/rose.jpg" class="table-img"></td>
+      </tr>
+
+      <tr>
+        <td>Rose</td> 
+        <td>IDR 45.000/pcs</td> 
+        <td>Black</td>
+        <td><img src="Asset(Dhira)/black.jpg" class="table-img"></td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</section>
+
+<section>
+  <div class="container">
+   
+    <div class="tab">
+      <div class="tab-header">
+        <div>
+         <h1 class="name">Bronze</h1>
+        </div>
+        <div>
+         <h2 class="price"> Under IDR100.000</h2>
+        </div>
+      </div>
+      <hr>
+      <ul class="list">
+        <li>Bouquet </li>
+        <li> <del> Decoration </del> </li>
+        <li> Vase </li>
+        <li> One flower type </li>
+        <li> Lily </li>
+        <li> Rose </li>
+        <li> Tulip </li>
+        <li> <del> Sunflower </del></li>
+        <li> <del> Baby breath </del> </li> 
+      </ul>
+
+      <button>Choose Plan</button>
+
+    </div>
+
+        <!-- SILVER PACKAGE -->
+    <div class="tab">
+      <div class="tab-header">
+        <div>
+          <h1 class="name">Silver</h1>
+        </div>
+        <div>
+          <h2 class="price">IDR 100.000 – 200.000</h2>
+        </div>
+      </div>
+      <hr>
+      <ul class="list">
+        <li>Bouquet</li>
+        <li>Decoration</li>
+        <li>Vase</li>
+        <li>Two flower types</li>
+        <li>Lily</li>
+        <li>Rose</li>
+        <li>Tulip</li>
+        <li>Sunflower</li>
+        <li><del>Baby breath</del></li>
+      </ul>
+
+      <button>Choose Plan</button>
+
+    </div>
+
+    <!-- GOLD PACKAGE -->
+    <div class="tab">
+      <div class="tab-header">
+        <div>
+          <h1 class="name">Gold</h1>
+        </div>
+        <div>
+          <h2 class="price">Above IDR 200.000</h2>
+        </div>
+      </div>
+      <hr>
+      <ul class="list">
+        <li>Bouquet</li>
+        <li>Decoration</li>
+        <li>Premium Vase</li>
+        <li>Unlimited flower types</li>
+        <li>Lily</li>
+        <li>Rose</li>
+        <li>Tulip</li>
+        <li>Sunflower</li>
+        <li>Baby breath</li>
+      </ul>
+
+      <button>Choose Plan</button>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+   <div class="about">
+     <div>
+       <h2 class="about">About Us</h2>
+       <p class="about">
+         Florist Shop berdiri sejak 2024 sebagai e-commerce penyedia buket bunga
+         custom yang dibuat dengan penuh ketelitian dan cinta. Kami memulai dari
+         usaha kecil rumahan dan berkembang menjadi toko online yang melayani
+         berbagai jenis bouquet untuk ulang tahun, pernikahan, wisuda, dan
+         berbagai momen spesial lainnya.
+       </p>
+     </div>
+
+     <div class="image-about">
+       <img src="Assets/aboutusai.jpg" alt="About Us" class="about-us">
+     </div>
+   </div>
+</section>
+
+<footer>
+    <div class="center-footer">
+
+      <div class="main-footer">
+        <div class="left-footer"> 
+          <h3 class="info-left"><b>Address</b></h3>
+          <p class="info-left">
+            <i class="fa-solid fa-location-dot"></i>
+            Tukad Yeh Aya Street No.45, Renon, Denpasar
+          </p>
+        </div>
+
+        <div class="right-footer">
+          <h3 class="info-right"><b>Contacts</b></h3>
+
+          <p class="info-right">
+            <i class="fa-solid fa-phone"></i>
+            087876667564
+          </p>
+
+          <p class="info-right">
+            <i class="fa-brands fa-instagram"></i>
+            @floristshop
+          </p>
+        </div>
+      </div>
+
+      <div class="main-footer">
+        <p class="info-center">
+          <i class="fa-regular fa-copyright"></i>
+          2025 Designed by Florist Shop
+        </p>
+      </div>
+
+    </div>
+</footer>
+
+</main>
+
+</body>
+</html>

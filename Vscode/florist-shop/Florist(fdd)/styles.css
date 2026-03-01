@@ -1,0 +1,407 @@
+
+ /* Header Title */
+.main-header {
+  background-image: linear-gradient(rgb(71, 49, 131) , rgb(148, 120, 194));
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+/* Perbaikan: posisi 'position' salah tulis */
+.header-info {
+  text-align: left;
+  color: rgb(30, 33, 34);
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin: 14px 14px 0 14px;  /* Perbaikan: '14-x' salah */
+}
+
+.header-info a {
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-info a:hover {
+  background-color: transparent;
+}
+
+/* Navigation */
+nav {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(30,33,34);
+  padding: 15px;
+}
+
+nav a:hover {
+  background-color: rgb(67, 30, 102);
+}
+
+/* Bagian Jumbotron */
+.jumbotron {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.jumbotron img {
+  width: 260px;
+  height: auto;
+}
+
+/* SECTION: PRODUCTS */
+
+.products-section {
+    margin-top: 60px;
+    padding: 30px;
+}
+
+.products-title {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.products-subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Flex container */
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Individual Product Card */
+.product-card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Product Image */
+.product-image {
+    max-width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Product Title */
+.product-name {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Price */
+.product-price {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Description */
+.product-desc {
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+}
+
+.item {
+   /* Tambahkan code di bawah ini */
+   margin: 10px;
+   background-color: rgb(71, 49, 131);
+   padding: 10px;
+   border-radius: 8px;
+}
+
+h3, p {
+   text-align: center;
+   padding: 5px;  
+   color: lab(7.69% -1.65 -7);   
+}
+
+.product-name, 
+.product-price, 
+.product-desc {
+   text-align: center;
+   padding: 5px;
+   color: #030e17; 
+}
+
+.item {
+   margin: 10px;
+   background-color: lch(67.8% 61.01 329.46 / 0.366);
+   padding: 15px;       /* ← Tambahkan padding di sini */
+   border-radius: 8px;  /* opsional agar lebih rapi */
+}
+.product-card {
+   margin: 10px;
+   background-color: lch(67.8% 61.01 329.46 / 0.366);
+   padding: 20px;       /* padding untuk memberi ruang */
+   border-radius: 12px;
+}
+
+body {
+   background-image: url("Asset(Dhira)/bg3.jpg  ");  /* lokasi file background */
+   background-size: cover;                  /* agar memenuhi layar */
+   background-position: center;             /* posisi gambar terpusat */
+   background-repeat: no-repeat;            /* agar gambar tidak diulang */
+   background-attachment: fixed;            /* opsional: efek parallax */
+}
+.table-section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.table-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.flower-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(73, 67, 67, 0.8);
+}
+
+.flower-table th,
+.flower-table td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+.flower-table th {
+    background-color: rgb(148, 120, 194); 
+}
+
+.table-img {
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    background-color: rgb(148, 120, 194);
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+h1.name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+h2.price {
+    font-size: 38px;
+    color: black;
+}
+
+.list {
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.list li {
+    margin-top: 20px;
+    color: black;
+}
+
+hr {
+    height:    7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(71, 49, 131);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgba(71, 49, 131);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(67, 30, 102);
+    cursor: pointer;
+}
+
+/* Container About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    background-color: rgb(148, 120, 194); 
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Text Style */
+.about p, 
+.about h2 {
+    text-align: left;
+    color: black;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Image Container */
+.image-about {
+    margin: auto 0;
+}
+
+/* Image Styling */
+.about-us {
+    width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(245, 235, 220);
+    background-image: linear-gradient(rgb(148, 120, 194),   rgb(71, 49, 131));
+} 
+
+.main-footer { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer {
+    margin-right: auto; 
+    margin-left: 40px;
+}
+
+.right-footer {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left {
+    color: rgb(30, 33, 34);
+    text-align: left;
+    width: 100%;
+}
+.info-right {
+    color: rgb(30, 33, 34);
+    text-align: right;
+    width: 100%;
+}
+
+.info-center {
+    color: rgb(30, 33, 34);
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(146, 168, 133);
+}
+
+footer {
+  background-color: rgb(219, 84, 75);
+  color: white;
+  padding: 30px 10px;
+  margin-top: 50px;
+}
+
+.center-footer {
+  text-align: center;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.left-footer, 
+.right-footer {
+  width: 45%;
+  text-align: left;
+}
+
+.info-left i,
+.info-right i,
+.info-center i {
+  margin-right: 8px;
+  color: rgb(71, 49, 131); /* warna icon */
+  font-size: 18px;
+}
+
+.info-center {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav a i {
+  margin-right: 6px;     /* Jarak icon dan teks */
+  font-size: 16px;       /* Ukuran icon */
+}
+
+/* Hover warna icon juga berubah */
+nav a:hover i {
+  color: white;
+}
+
+*{
+  font-family: 'Dancing Script', cursive;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  * {
+      font-size: 2vw;
+      margin: 2px;
+    }
+}
