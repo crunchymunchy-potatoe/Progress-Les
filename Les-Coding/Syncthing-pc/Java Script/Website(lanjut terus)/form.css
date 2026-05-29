@@ -1,0 +1,33 @@
+img {
+    width: 150px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.header1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+input {
+    border-left: 0cap;
+    border-right: 0cap;
+    border-top: 0;
+}
+
+button {
+    background-color: beige;
+    padding: 10px;
+    border: 0px;
+}

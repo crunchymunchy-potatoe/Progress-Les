@@ -1,0 +1,54 @@
+h1 ~ p {
+    color: cyan;
+}
+h1 + h2 {
+    color: red;
+}
+div > h1 {
+    color: rebeccapurple;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover{
+    color: darkgreen;
+}
+
+a {
+    color: wheat;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+button {
+    background-color: wheat;
+}
+input:focus {
+    border-color: green;
+    border-width: 15px;
+    outline: 0px;
+}
+
+input:enabled {
+    border-color: red;
+}
+
+input:disabled {
+    border-color: yellow;
+}
+
+.latihan > * {
+    color: purple;
+}
+
+.latihan:not(h1) {
+    color: black;
+}
